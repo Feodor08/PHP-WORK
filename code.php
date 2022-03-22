@@ -1,5 +1,6 @@
 <?php
-	$a = 10;
-	$b = 3;
-	echo $a % $b; // выведет 1
+header('Content-Type: text/html; charset=utf-8');
+$name = $_POST['n'];
+$surname = $_POST['s'];
+echo "Привет ".$name.' '.$surname;
 ?>
