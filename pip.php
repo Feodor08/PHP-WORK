@@ -5,6 +5,8 @@
 		<title>Моя первая программа</title>
 	</head>
 	<body>
+		<meta charset="utf-8">
+<meta charset="utf-8">
 <?php
 	error_reporting(E_ALL);
 	ini_set('display_errors', 'on');
