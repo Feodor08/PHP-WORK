@@ -6,11 +6,6 @@
     $arr1 = explode(' ', $str1);
     $arr2 = explode(' ', $str2);
 
-    $sum = 0;
-    for ($i=0; $i<count($arr1); $i++) {
-    	$sum1 += $arr1[$i];
-    	$sum2 += $arr2[$i];
-    }
-    echo $sum1.' '.$sum2;
-
+    $sum = array_sum($arr1) + array_sum($arr2);
+    file_put_contents('sum.txt', $sum);
 ?>
