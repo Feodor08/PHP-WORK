@@ -8,8 +8,9 @@
 
     $sum = 0;
     for ($i=0; $i<count($arr1); $i++) {
-    	$sum += $arr1[$i];
+    	$sum1 += $arr1[$i];
+    	$sum2 += $arr2[$i];
     }
-    echo $sum;
-    
+    echo $sum1.' '.$sum2;
+
 ?>
