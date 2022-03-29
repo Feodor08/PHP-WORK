@@ -1,5 +1,5 @@
-<?php
-    header('Content-Type: text/html; charset+utf-8');
-    $chislo = file_get_contents('3.txt');
-    file_put_contents('3.txt', $chislo*$chislo);
+<?php 
+$a = file_get_contents('count.txt');
+echo $a+1;
+file_put_contents("count.txt",$a=$a+1);
 ?>
