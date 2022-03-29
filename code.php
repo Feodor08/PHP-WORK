@@ -11,4 +11,5 @@
     	$sum += $arr1[$i];
     }
     echo $sum;
+    
 ?>
