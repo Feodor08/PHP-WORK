@@ -1,10 +1,8 @@
 <?php
-require_once 'pet.php';
+require_once 'human.php';
 
-class Cat extends Pet {
-    public function voice(){
-		echo 'мяу-мяу<br>';
-	}
+class stident extends human {
+   
 }
 
 ?>
