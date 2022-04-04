@@ -8,7 +8,10 @@ class Pet {
 	}
 
 	public function display(){
-		echo sprintf('Имя %s, порода %s,<br>', $this->name,$this->poroda);
+		echo sprintf('Имя %s, порода %s.<br>', $this->name,$this->poroda);
+	}
+	public function voice(){
+		echo 'Издает звук';
 	}
 }
 ?>

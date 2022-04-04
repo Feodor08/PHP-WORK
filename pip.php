@@ -5,7 +5,9 @@
 
 	$pet1 = new Cat('Василий', 'Сфинкс');
 	$pet1->display();
+    $pet1->voice();
 
 	$pet2 = new Dog('Генадий', 'Пудель');
 	$pet2->display();
+	$pet2->voice();
 ?>
