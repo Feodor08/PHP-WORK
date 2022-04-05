@@ -7,11 +7,10 @@
     $group2 = new Group(2, 'И-02');
     $group3 = new Group(3, 'И-03');
 	$s1 = new Student('Фёдор', 'Медведенко','Павлович', $group1);
-	$s2 = new Student('Кирилл', 'Королев','Николаевич', $group3);
+	$s2 = new Student('Кирилл', 'Королёв','Николаевич', $group3);
 
-	$s1->display();
-	$s2->display();
-    
+	$group1->show();
+	
 
 	
 ?>
