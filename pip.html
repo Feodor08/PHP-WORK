@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Моя первая программа</title>
+    <meta charset="utf-8">
+    <title>Калькулятор</title>
 </head>
 <body>
-<form action="pet.php" method="POST">
-<span>x= </span><input type="text" name="ch1", placeholder="Введите x : "><br>
-<select name = "deist">
-	<option value="">+</option>
-	<option value="">-</option>
-	<option value="">/</option>
-	<option value="">*</option>
-</select>
-<br>
-<span>y= </span><input type="text" name="ch2", placeholder="Введите y : "><br>
-<input type="submit" value="Сложить">
-</form>
+    <form action="" method="post">
+    	<input type="text" name="first_num" placeholder="первое число">
+    	<select name="deistvie">
+    		<option value="+">+</option>
+    		<option value="-">-</option>
+    		<option value="*">*</option>
+    	</select>
+    	<input type="text" name="last_num" placeholder="второе число"><br>
+    	<input type="submit" value="Посчитать">
+    </form>
 </body>
 </html>
