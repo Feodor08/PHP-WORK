@@ -1,6 +1,5 @@
 <?php
-	require_once '/modules/shop/cart/cart.php';
+	namespace Admin;
 	
-	$adminmodulescart = new \modules\shop\cart\cart;
-	
+	new Controller;
 ?>
