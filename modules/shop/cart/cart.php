@@ -1,8 +1,11 @@
 <?php
-	namespace modules\cart;
+	namespace modules\shop;
 	
 	class cart
 	{
+		
+	}
+	class usercart extends cart {
 		
 	}
 ?>
