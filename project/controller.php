@@ -1,8 +1,17 @@
 <?php
-	namespace Users;
-	
-	class controller
+	namespace Project;
+	use \Core\Users\Data;
+	class Page extends Controller
 	{
-		
+	class Test
+	{
+		public function __construct()
+		{
+			// Создаем 3 объекта одного класса:
+			$data1  = new Data('user1');
+			$data2  = new Data('user2');
+			$data3  = new Data('user3');
+		}
 	}
+}
 ?>
