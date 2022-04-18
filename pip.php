@@ -1,6 +1,6 @@
 <?php
-	require_once '/modules/cart/cart.php';
+	require_once '/modules/shop/cart/cart.php';
 	
-	$adminmodulescart = new \modules\cart\cart;
+	$adminmodulescart = new \modules\shop\cart\cart;
 	
 ?>
