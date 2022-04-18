@@ -1,5 +1,6 @@
 <?php
-	namespace Admin;
+	namespace Core\Data;
 	
-	new Controller;
+	$controller = new \Core\Data\Controller;
+	$model      = new \Core\Data\Model;
 ?>
